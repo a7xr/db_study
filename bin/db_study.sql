@@ -885,7 +885,7 @@ CREATE TABLE `todo` (
   `_datet` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   `answer` text,
   PRIMARY KEY (`id_todo`)
-) ENGINE=MyISAM AUTO_INCREMENT=4 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=7 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -894,7 +894,7 @@ CREATE TABLE `todo` (
 
 LOCK TABLES `todo` WRITE;
 /*!40000 ALTER TABLE `todo` DISABLE KEYS */;
-INSERT INTO `todo` VALUES (1,'\nthe meaning of benchmark\n    db:qcm01$b12p14\n','2016-02-15 16:44:43',NULL),(2,'how to create (function, procedure) in (bashrc, vimrc)','2016-02-16 07:01:01',NULL),(3,'there are commands which i want to execute:\n    some are vim_cmd, like :.!\n    some are shell_cmd\n    \n    how to combine them \n    ifk: i have to define it inside a vim_alias or function\n    ','2016-02-16 07:02:59',NULL);
+INSERT INTO `todo` VALUES (1,'\nthe meaning of benchmark\n    db:qcm01$b12p14\n','2016-02-15 16:44:43',NULL),(2,'how to create (function, procedure) in (bashrc, vimrc)','2016-02-16 07:01:01',NULL),(3,'there are commands which i want to execute:\n    some are vim_cmd, like :.!\n    some are shell_cmd\n    \n    how to combine them \n    ifk: i have to define it inside a vim_alias or function\n    ','2016-02-16 07:02:59',NULL),(4,'\ncreate repo for reading_doc\n    u should bring your computer\n','2016-02-16 13:10:20',NULL),(5,'\nmaka doc java\n','2016-02-16 13:10:20',NULL),(6,'\nhow to use label in java,\n    another thing other than jlabel\n','2016-02-16 13:30:12',NULL);
 /*!40000 ALTER TABLE `todo` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -952,4 +952,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-02-16 16:58:39
+-- Dump completed on 2016-02-16 18:44:29
